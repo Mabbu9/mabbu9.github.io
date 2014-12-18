@@ -61,6 +61,10 @@ body {
   padding-top:100px;
   background-color: #eeeeee;
 }
+.body-wrapper .bottom-padding-wrapper {
+  padding-bottom:4em;
+  background-color: #eeeeee;
+}
 .body-wrapper .logo-div {
   height:250px;
 }
