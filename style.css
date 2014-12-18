@@ -82,7 +82,6 @@ body {
 
 .body-wrapper .tagline {
 	font-size:22px;
-	margin-top:10px;
 }
 .body-wrapper .backstory {
 	font-size:16px;
@@ -127,6 +126,7 @@ body {
 	}
   .body-wrapper .summary {
 	  padding:0px;
+	  padding-bottom:10px;
 	}
 }
 h1,
