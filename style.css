@@ -75,9 +75,10 @@ body {
 }
 .body-wrapper .summary {
   font-size: 20px;
-  line-height:30px;
+  line-height:32px;
   height:60px;
   padding:95px 0px;
+  overflow:hidden
 }
 
 .body-wrapper .tagline {
@@ -114,6 +115,46 @@ body {
   background-color: #f5f5f0;
   color: #333;
 }
+
+.body-wrapper .mail {
+  font-size: 20px;
+  padding:60px 10px;
+  overflow:hidden
+}
+
+.body-wrapper .mail1{
+    display:inline-block;
+}
+
+.body-wrapper .mail2 {
+    display:inline-block;
+}
+
+.body-wrapper .idea {
+  font-size: 20px;
+  overflow:hidden;
+  padding:14px;
+}
+
+.team-info {
+    text-align:right;
+}
+
+.current {
+    text-align:right;
+}
+
+.team-info ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.team-info ul li {
+    padding: 2px 0px;
+    font-size: 15px;
+}
+
 @media only screen and (max-width: 767px) {
   .body-wrapper .half {
     width: 100%;
@@ -128,6 +169,14 @@ body {
 	  padding:0px;
 	  padding-bottom:10px;
 	}
+  .body-wrapper .mail {
+	  padding:0px;
+	  padding-bottom:10px;
+	}
+    
+    .team-info {
+        text-align:center;
+    }
 }
 h1,
 p {
