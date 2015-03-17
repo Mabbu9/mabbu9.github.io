@@ -173,7 +173,8 @@ body {
     display: none!important;
   }
   .body-wrapper .header-wrapper .header .title {
-	  text-align:center
+	  text-align:center;
+      padding:0px;
 	}
   .body-wrapper .summary {
 	  padding:0px;
